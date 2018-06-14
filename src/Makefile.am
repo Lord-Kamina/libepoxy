@@ -116,7 +116,7 @@ libepoxy_la_SOURCES = \
 
 libepoxy_la_LDFLAGS = \
 	-no-undefined \
-        -Bsymbolic-functions \
+        -Bsymbolic \
 	$()
 
 libepoxy_la_LIBADD = \
